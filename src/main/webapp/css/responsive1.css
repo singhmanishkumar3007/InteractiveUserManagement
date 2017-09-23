@@ -1,0 +1,101 @@
+.navbar.navbar-inverse.navbar-fixed-top.sh-top-headernav.responsivemenu {
+display: none;
+}
+.color.destopmenu{ display: block;}
+@media screen and (max-width: 991px) {
+ul.nav.navbar-right.top-nav.sh-top-navber span.sh-icon{ display: none; }
+#cssmenu > ul > li > a{width: 31px;
+    height: 31px;    padding: 4px 3px;}
+    .col-sm-1.logo img {
+    width: 100%;
+}
+.nav.navbar-right.top-nav.sh-top-navber li {
+    margin: 4px 3px;
+}
+.nav.navbar-right.top-nav.sh-top-navber li a{
+	    font-size: 12px;
+     width: 100%;
+}
+label.sh-label {
+    font-size: 11px;}
+
+    .all-contant-button ul li .sh-input {
+    width: 100%;    font-size: 11px;
+    padding: 0 10px;     margin: 4px 0;}
+    .all-contant-button p {
+    font-size: 10px;}
+    label.sh-label {
+    font-size: 12px;
+}
+.modal.right .modal-dialog
+{ width: 100%; }
+
+}
+
+@media screen and (max-width: 767px) {
+	.navbar.navbar-inverse.navbar-fixed-top.sh-top-headernav.responsivemenu {
+display:block;
+position: relative;
+}
+.color.destopmenu{ display: none;}
+.pd {
+margin: 0;
+padding: 0 15px;
+}
+.datepicker {
+    width: 95%;}
+    .allcontant-first{    margin-top: 9px;}
+    label.sh-label {
+    font-size: 13px;
+    margin: 10px 0 10px 0;
+}
+.pdtwo {
+    padding: 0 15px;
+}
+.col-sm-1.line.pd {
+    display: none;
+}
+.border-style {
+    text-align: left;
+ margin: 0 auto 10px auto;
+}
+.all-contant-button ul,.all-contant-button {
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 17px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    border-bottom: 1px solid #fff;
+}
+.side-nav>li ul li:last-child a{ border-bottom: none; }
+.modal-content.sh-modalcontant{ text-align: left;width: 100%; }
+.modal-content.sh-modalcontant .datepicker {
+    float: left;
+    width: 90%;
+}
+.sh-modal-body{ text-align: left; }
+.searchbtn {
+    float: none;
+    text-align: center;}
+    .body-contant {
+    border-top: none;}
+    span.input-group-addon.one {
+    right: 9px;
+    top: 0;
+}
+.input-group-addon{    right: 13px;}
+.heading-two h3{ z-index: 1; }
+
+ul.landingulone li{    width: 28%;}
+}
+@media screen and (max-width: 480px) {
+
+    ul.landingulone li{    width: 48%;}
+
+}

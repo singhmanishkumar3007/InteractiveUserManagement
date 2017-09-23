@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.objectFactory" value="spring" />
+
+	<package name="default" extends="struts-default">
+
+		<action name="login" class="com.easybusiness.action.LoginAction">
+			<result name="success">/newjsp/userprofile.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+		<action name="land" class="com.easybusiness.action.LandAction">
+			<result name="success">/jsp/login.jsp</result>
+			<result name="error">/jsp/index.jsp</result>
+		</action>
+
+		<action name="viewuser" class="com.easybusiness.action.ViewUserLandingAction">
+			<result name="success">/newjsp/personaldetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="editpersonaldetails" class="com.easybusiness.action.EditPersonalDetailsAction">
+			<result name="success">/newjsp/editpersonaldetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="editprofessionaldetails" class="com.easybusiness.action.EditProfessionalDetailsAction">
+			<result name="success">/newjsp/editprofessionaldetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="editacademicdetails" class="com.easybusiness.action.EditAcademicDetailsAction">
+			<result name="success">/newjsp/editacademicdetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="editbankdetails" class="com.easybusiness.action.EditBankDetailsAction">
+			<result name="success">/newjsp/editbankdetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+		<action name="createuser" class="com.easybusiness.action.CreateUserLandingAction">
+			
+			<result name="success">/newjsp/createnewuser.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+			<interceptor-ref name="defaultStack">
+				<param name="fileUpload.maximumSize">10485760</param>
+				<param name="fileUpload.allowedTypes">text/plain,image/jpeg,image/png,image/gif,image/pjpeg</param>
+			</interceptor-ref>
+		</action>
+
+		<action name="mapusertogroup"
+			class="com.easybusiness.action.MapUserGroupLandingAction">
+			<result name="success">/newjsp/mapusertogroup.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+		<action name="mapgrouptomenu"
+			class="com.easybusiness.action.MapGroupMenuLandingAction">
+			<result name="success">/newjsp/mapgrouptomenu.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+
+		<action name="mapuserbank" class="com.easybusiness.action.MapUserBankLandingAction">
+			<result name="success">/newjsp/bankdetails.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+		<action name="mapuserrole" class="com.easybusiness.action.MapUserRoleLandingAction">
+			<result name="success">/newjsp/mapusertorole.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+		<action name="logout" class="com.easybusiness.action.LoginAction"
+			method="logout">
+			<result name="success">/jsp/login.jsp</result>
+		</action>
+		
+		<action name="workinprogress" class="com.easybusiness.action.WorkInProgressLandingAction">
+			<result name="success">/newjsp/workinprogress.jsp</result>
+			<result name="error">/jsp/login.jsp</result>
+		</action>
+
+	</package>
+</struts>

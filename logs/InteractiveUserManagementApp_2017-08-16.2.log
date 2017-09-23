@@ -1,0 +1,489 @@
+2017-08-16 01:07:21,331 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/sb-admin.css]
+2017-08-16 01:07:21,371 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/sb-admin.css] are [/**]
+2017-08-16 01:07:21,371 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/sb-admin.css] are {}
+2017-08-16 01:07:21,371 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/sb-admin.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,371 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/sb-admin.css] is: -1
+2017-08-16 01:07:21,374 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,376 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,339 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
+2017-08-16 01:07:21,331 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
+2017-08-16 01:07:21,439 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/style.css]
+2017-08-16 01:07:21,441 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,449 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,449 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/style.css
+2017-08-16 01:07:21,449 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
+2017-08-16 01:07:21,449 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,449 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
+2017-08-16 01:07:21,449 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/style.css]
+2017-08-16 01:07:21,451 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/**]
+2017-08-16 01:07:21,461 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/style.css] are [/**]
+2017-08-16 01:07:21,464 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,464 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,474 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
+2017-08-16 01:07:21,474 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/style.css] are {}
+2017-08-16 01:07:21,474 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,474 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/responsive.css]
+2017-08-16 01:07:21,481 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,481 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/style.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,481 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,481 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/responsive.css
+2017-08-16 01:07:21,491 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/style.css] is: -1
+2017-08-16 01:07:21,491 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
+2017-08-16 01:07:21,499 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,499 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/responsive.css]
+2017-08-16 01:07:21,504 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,511 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/responsive.css] are [/**]
+2017-08-16 01:07:21,511 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,511 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/responsive.css] are {}
+2017-08-16 01:07:21,511 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,511 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/responsive.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,514 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,514 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/responsive.css] is: -1
+2017-08-16 01:07:21,514 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/js/jquery-3.2.1.min.js]
+2017-08-16 01:07:21,514 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,514 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /js/jquery-3.2.1.min.js
+2017-08-16 01:07:21,516 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,516 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/js/jquery-3.2.1.min.js]
+2017-08-16 01:07:21,516 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,516 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/js/jquery-3.2.1.min.js] are [/**]
+2017-08-16 01:07:21,516 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/js/jquery-3.2.1.min.js] are {}
+2017-08-16 01:07:21,516 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/js/jquery-3.2.1.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,516 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/js/jquery-3.2.1.min.js] is: -1
+2017-08-16 01:07:21,526 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,526 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,526 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,529 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,529 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,529 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,534 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,534 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/js/bootstrap.min.js]
+2017-08-16 01:07:21,534 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /js/bootstrap.min.js
+2017-08-16 01:07:21,534 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/js/bootstrap.min.js]
+2017-08-16 01:07:21,534 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/js/bootstrap.min.js] are [/**]
+2017-08-16 01:07:21,534 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/js/bootstrap.min.js] are {}
+2017-08-16 01:07:21,534 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/js/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,534 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/js/bootstrap.min.js] is: -1
+2017-08-16 01:07:21,544 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@c327ee7
+2017-08-16 01:07:21,541 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,539 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,539 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,536 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,544 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/js/sh-js.js]
+2017-08-16 01:07:21,544 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/settings-1.png]
+2017-08-16 01:07:21,544 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/js/responsiveCarousel.min.js]
+2017-08-16 01:07:21,544 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/logout-1.png]
+2017-08-16 01:07:21,544 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/logo.png]
+2017-08-16 01:07:21,546 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /js/sh-js.js
+2017-08-16 01:07:21,546 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/settings-1.png
+2017-08-16 01:07:21,546 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /js/responsiveCarousel.min.js
+2017-08-16 01:07:21,546 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/logout-1.png
+2017-08-16 01:07:21,551 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,551 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/logo.png
+2017-08-16 01:07:21,554 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/js/sh-js.js]
+2017-08-16 01:07:21,556 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/settings-1.png]
+2017-08-16 01:07:21,556 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/js/responsiveCarousel.min.js]
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/logout-1.png]
+2017-08-16 01:07:21,561 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/logo.png]
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/js/sh-js.js] are [/**]
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/settings-1.png] are [/**]
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/js/responsiveCarousel.min.js] are [/**]
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/logout-1.png] are [/**]
+2017-08-16 01:07:21,561 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,561 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/logo.png] are [/**]
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/js/sh-js.js] are {}
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/settings-1.png] are {}
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/logout-1.png] are {}
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/js/responsiveCarousel.min.js] are {}
+2017-08-16 01:07:21,571 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/js/responsiveCarousel.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,571 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/js/responsiveCarousel.min.js] is: -1
+2017-08-16 01:07:21,566 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/logout-1.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,574 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/logout-1.png] is: -1
+2017-08-16 01:07:21,576 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,576 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,576 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,579 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/line-two.png]
+2017-08-16 01:07:21,579 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/line-two.png
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/settings-1.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,579 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/line-two.png]
+2017-08-16 01:07:21,579 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/line-two.png] are [/**]
+2017-08-16 01:07:21,579 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/line-two.png] are {}
+2017-08-16 01:07:21,579 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/line-two.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,579 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/line-two.png] is: -1
+2017-08-16 01:07:21,581 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,581 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/fonts/fontawesome-webfont.woff2]
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/logo.png] are {}
+2017-08-16 01:07:21,581 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /fonts/fontawesome-webfont.woff2
+2017-08-16 01:07:21,581 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/logo.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,581 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,564 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/js/sh-js.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,574 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,581 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/logo.png] is: -1
+2017-08-16 01:07:21,581 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/fonts/fontawesome-webfont.woff2]
+2017-08-16 01:07:21,581 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/settings-1.png] is: -1
+2017-08-16 01:07:21,581 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,584 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/js/sh-js.js] is: -1
+2017-08-16 01:07:21,584 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,584 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/fonts/fontawesome-webfont.woff2] are [/**]
+2017-08-16 01:07:21,586 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,586 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,589 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,591 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,591 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,591 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/fonts/fontawesome-webfont.woff2] are {}
+2017-08-16 01:07:21,594 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,596 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,599 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,601 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,601 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/fonts/fontawesome-webfont.woff2] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,601 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,601 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,604 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon-7.png]
+2017-08-16 01:07:21,604 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,604 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@c327ee7
+2017-08-16 01:07:21,604 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/fonts/glyphicons-halflings-regular.woff2]
+2017-08-16 01:07:21,604 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/fonts/fontawesome-webfont.woff2] is: -1
+2017-08-16 01:07:21,604 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon-7.png
+2017-08-16 01:07:21,604 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /fonts/glyphicons-halflings-regular.woff2
+2017-08-16 01:07:21,606 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,606 DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing: request is from same origin
+2017-08-16 01:07:21,609 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon-7.png]
+2017-08-16 01:07:21,609 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@c327ee7
+2017-08-16 01:07:21,609 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/fonts/glyphicons-halflings-regular.woff2]
+2017-08-16 01:07:21,609 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,609 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon-3.png]
+2017-08-16 01:07:21,614 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon-7.png] are [/**]
+2017-08-16 01:07:21,616 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon-2.png]
+2017-08-16 01:07:21,616 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/fonts/glyphicons-halflings-regular.woff2] are [/**]
+2017-08-16 01:07:21,616 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon-1.png]
+2017-08-16 01:07:21,619 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon-3.png
+2017-08-16 01:07:21,619 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon-7.png] are {}
+2017-08-16 01:07:21,639 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon-7.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,641 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon-7.png] is: -1
+2017-08-16 01:07:21,629 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon-3.png]
+2017-08-16 01:07:21,626 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon-1.png
+2017-08-16 01:07:21,646 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon-1.png]
+2017-08-16 01:07:21,646 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon-1.png] are [/**]
+2017-08-16 01:07:21,646 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon-1.png] are {}
+2017-08-16 01:07:21,621 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/fonts/glyphicons-halflings-regular.woff2] are {}
+2017-08-16 01:07:21,649 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/fonts/glyphicons-halflings-regular.woff2] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,649 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/fonts/glyphicons-halflings-regular.woff2] is: -1
+2017-08-16 01:07:21,649 DEBUG o.s.web.cors.DefaultCorsProcessor - Skip CORS processing: request is from same origin
+2017-08-16 01:07:21,654 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,654 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,654 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,656 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,656 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/header/menu_white.png]
+2017-08-16 01:07:21,656 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/header/menu_white.png
+2017-08-16 01:07:21,656 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/header/menu_white.png]
+2017-08-16 01:07:21,659 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/header/menu_white.png] are [/**]
+2017-08-16 01:07:21,659 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/header/menu_white.png] are {}
+2017-08-16 01:07:21,659 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/header/menu_white.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,659 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/header/menu_white.png] is: -1
+2017-08-16 01:07:21,661 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,661 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,661 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,661 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,661 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/header/role_white.png]
+2017-08-16 01:07:21,664 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/header/role_white.png
+2017-08-16 01:07:21,664 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/header/role_white.png]
+2017-08-16 01:07:21,664 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/header/role_white.png] are [/**]
+2017-08-16 01:07:21,664 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/header/role_white.png] are {}
+2017-08-16 01:07:21,664 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/header/role_white.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,664 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/header/role_white.png] is: -1
+2017-08-16 01:07:21,666 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,666 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,666 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,669 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,669 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/header/quality_white.png]
+2017-08-16 01:07:21,621 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon-2.png
+2017-08-16 01:07:21,679 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon-2.png]
+2017-08-16 01:07:21,621 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,679 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,646 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,681 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,681 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,681 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,646 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon-1.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,692 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon-1.png] is: -1
+2017-08-16 01:07:21,700 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,700 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,700 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,702 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,702 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/header/user_group_white.png]
+2017-08-16 01:07:21,702 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/header/user_group_white.png
+2017-08-16 01:07:21,702 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/header/user_group_white.png]
+2017-08-16 01:07:21,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/header/user_group_white.png] are [/**]
+2017-08-16 01:07:21,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/header/user_group_white.png] are {}
+2017-08-16 01:07:21,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/header/user_group_white.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,702 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/header/user_group_white.png] is: -1
+2017-08-16 01:07:21,705 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,705 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,705 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2c5823d
+2017-08-16 01:07:21,679 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon-2.png] are [/**]
+2017-08-16 01:07:21,705 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon-2.png] are {}
+2017-08-16 01:07:21,705 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon-2.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,707 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon-2.png] is: -1
+2017-08-16 01:07:21,707 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,707 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/header/user_white.png]
+2017-08-16 01:07:21,707 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/header/user_white.png
+2017-08-16 01:07:21,707 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/header/user_white.png]
+2017-08-16 01:07:21,707 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/header/user_white.png] are [/**]
+2017-08-16 01:07:21,707 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/header/user_white.png] are {}
+2017-08-16 01:07:21,707 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/header/user_white.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,707 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,707 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,707 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@c327ee7
+2017-08-16 01:07:21,707 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/header/user_white.png] is: -1
+2017-08-16 01:07:21,646 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon-3.png] are [/**]
+2017-08-16 01:07:21,707 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:21,710 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,712 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/header/quality_white.png
+2017-08-16 01:07:21,735 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon-3.png] are {}
+2017-08-16 01:07:21,740 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon-4.png]
+2017-08-16 01:07:21,745 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,745 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/header/quality_white.png]
+2017-08-16 01:07:21,745 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon-3.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,745 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon-4.png
+2017-08-16 01:07:21,745 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/header/quality_white.png] are [/**]
+2017-08-16 01:07:21,745 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:21,745 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon-3.png] is: -1
+2017-08-16 01:07:21,747 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon-4.png]
+2017-08-16 01:07:21,747 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/header/quality_white.png] are {}
+2017-08-16 01:07:21,750 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,755 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon-4.png] are [/**]
+2017-08-16 01:07:21,755 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/header/quality_white.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,755 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,757 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon-4.png] are {}
+2017-08-16 01:07:21,757 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/header/quality_white.png] is: -1
+2017-08-16 01:07:21,757 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:21,757 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon-4.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:21,762 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,770 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon-4.png] is: -1
+2017-08-16 01:07:21,772 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,772 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:21,775 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:21,775 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:21,775 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:24,705 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:24,717 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserClient com.easybusiness.action.CreateUserLandingAction.userClient
+2017-08-16 01:07:24,717 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userClient'
+2017-08-16 01:07:24,717 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserRoleClient com.easybusiness.action.CreateUserLandingAction.userRoleClient
+2017-08-16 01:07:24,717 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userRoleClient'
+2017-08-16 01:07:24,719 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.ProfessionClient com.easybusiness.action.CreateUserLandingAction.professionClient
+2017-08-16 01:07:24,719 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'professionClient'
+2017-08-16 01:07:24,742 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/role/getAllRoles"
+2017-08-16 01:07:24,742 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:24,790 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/role/getAllRoles" resulted in 200 (null)
+2017-08-16 01:07:24,790 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.RoleDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:24,790 INFO  c.e.restclient.UserRoleClient - response of get Roles is  [Lcom.easybusiness.bean.RoleDTO;@10e879b0
+2017-08-16 01:07:24,793 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations"
+2017-08-16 01:07:24,793 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:24,815 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations" resulted in 200 (null)
+2017-08-16 01:07:24,815 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.OrganizationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:24,815 INFO  c.e.restclient.ProfessionClient - response of get all Organizations is  <200 OK,[Lcom.easybusiness.bean.OrganizationDTO;@6a66488e,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:37:24 GMT]}>
+2017-08-16 01:07:24,815 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations"
+2017-08-16 01:07:24,815 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:24,848 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations" resulted in 200 (null)
+2017-08-16 01:07:24,848 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.DesignationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:24,855 INFO  c.e.restclient.ProfessionClient - response of get all Designations is  <200 OK,[Lcom.easybusiness.bean.DesignationDTO;@3564b417,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:37:24 GMT]}>
+2017-08-16 01:07:24,903 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:24,905 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/font-awesome.min.css]
+2017-08-16 01:07:24,905 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
+2017-08-16 01:07:24,905 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
+2017-08-16 01:07:24,905 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/**]
+2017-08-16 01:07:24,905 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
+2017-08-16 01:07:24,905 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:24,905 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
+2017-08-16 01:07:24,908 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:24,908 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/responsive.css]
+2017-08-16 01:07:24,908 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/responsive.css
+2017-08-16 01:07:24,908 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/responsive.css]
+2017-08-16 01:07:24,908 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/responsive.css] are [/**]
+2017-08-16 01:07:24,908 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/responsive.css] are {}
+2017-08-16 01:07:24,908 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/responsive.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:24,908 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/responsive.css] is: -1
+2017-08-16 01:07:24,910 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:24,910 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:24,910 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@369d4052
+2017-08-16 01:07:24,910 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:24,910 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:24,910 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:24,918 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:24,918 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/bootstrap.min.css]
+2017-08-16 01:07:24,918 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
+2017-08-16 01:07:24,918 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
+2017-08-16 01:07:24,918 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/**]
+2017-08-16 01:07:24,918 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
+2017-08-16 01:07:24,918 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:24,918 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
+2017-08-16 01:07:24,928 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:24,928 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:24,928 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:24,930 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:24,930 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:24,930 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/style.css]
+2017-08-16 01:07:24,933 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/sb-admin.css]
+2017-08-16 01:07:24,938 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/style.css
+2017-08-16 01:07:24,940 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/sb-admin.css
+2017-08-16 01:07:24,940 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/style.css]
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/sb-admin.css]
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/style.css] are [/**]
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/sb-admin.css] are [/**]
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/style.css] are {}
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/sb-admin.css] are {}
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/sb-admin.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:24,943 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/style.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:24,943 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/sb-admin.css] is: -1
+2017-08-16 01:07:24,943 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/style.css] is: -1
+2017-08-16 01:07:24,948 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:24,948 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:24,948 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5e269318
+2017-08-16 01:07:24,950 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:24,950 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:24,950 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@443447bf
+2017-08-16 01:07:24,953 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:25,030 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:25,030 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/images/icon_arrow.png]
+2017-08-16 01:07:25,030 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /images/icon_arrow.png
+2017-08-16 01:07:25,030 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/images/icon_arrow.png]
+2017-08-16 01:07:25,030 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/images/icon_arrow.png] are [/**]
+2017-08-16 01:07:25,030 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/images/icon_arrow.png] are {}
+2017-08-16 01:07:25,030 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/images/icon_arrow.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:07:25,040 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/images/icon_arrow.png] is: -1
+2017-08-16 01:07:25,043 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:07:25,043 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:07:25,043 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:28,625 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserClient com.easybusiness.action.CreateUserLandingAction.userClient
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userClient'
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserRoleClient com.easybusiness.action.CreateUserLandingAction.userRoleClient
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userRoleClient'
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.ProfessionClient com.easybusiness.action.CreateUserLandingAction.professionClient
+2017-08-16 01:07:28,663 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'professionClient'
+2017-08-16 01:07:28,693 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/role/getAllRoles"
+2017-08-16 01:07:28,693 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:28,734 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/role/getAllRoles" resulted in 200 (null)
+2017-08-16 01:07:28,734 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.RoleDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:28,734 INFO  c.e.restclient.UserRoleClient - response of get Roles is  [Lcom.easybusiness.bean.RoleDTO;@735187b6
+2017-08-16 01:07:28,744 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations"
+2017-08-16 01:07:28,744 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:28,774 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations" resulted in 200 (null)
+2017-08-16 01:07:28,774 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.OrganizationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:28,776 INFO  c.e.restclient.ProfessionClient - response of get all Organizations is  <200 OK,[Lcom.easybusiness.bean.OrganizationDTO;@798adcad,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:37:28 GMT]}>
+2017-08-16 01:07:28,776 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations"
+2017-08-16 01:07:28,776 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:07:28,809 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations" resulted in 200 (null)
+2017-08-16 01:07:28,809 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.DesignationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:07:28,809 INFO  c.e.restclient.ProfessionClient - response of get all Designations is  <200 OK,[Lcom.easybusiness.bean.DesignationDTO;@77b3c3f1,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:37:28 GMT]}>
+2017-08-16 01:07:28,886 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,112 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,133 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserClient com.easybusiness.action.CreateUserLandingAction.userClient
+2017-08-16 01:09:04,133 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userClient'
+2017-08-16 01:09:04,133 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.UserRoleClient com.easybusiness.action.CreateUserLandingAction.userRoleClient
+2017-08-16 01:09:04,133 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userRoleClient'
+2017-08-16 01:09:04,138 DEBUG o.s.b.f.a.InjectionMetadata - Processing injected element of bean 'com.easybusiness.action.CreateUserLandingAction': AutowiredFieldElement for com.easybusiness.restclient.ProfessionClient com.easybusiness.action.CreateUserLandingAction.professionClient
+2017-08-16 01:09:04,138 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'professionClient'
+2017-08-16 01:09:04,163 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/department/getDepartmentById/1"
+2017-08-16 01:09:04,163 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,214 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/department/getDepartmentById/1" resulted in 200 (null)
+2017-08-16 01:09:04,214 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.DepartmentDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,214 INFO  c.e.restclient.ProfessionClient - response of get Department by Id is  <200 OK,Department [id=1, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], deptName=IT],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,214 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/designation/getDesignationById/1"
+2017-08-16 01:09:04,239 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,289 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/designation/getDesignationById/1" resulted in 200 (null)
+2017-08-16 01:09:04,289 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.DesignationDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,289 INFO  c.e.restclient.ProfessionClient - response of get Designation By Id is  <200 OK,Designation [id=1, desig=DIRECTOR],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,289 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/organization/getOrganizationById/1"
+2017-08-16 01:09:04,289 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,324 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/organization/getOrganizationById/1" resulted in 200 (null)
+2017-08-16 01:09:04,324 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.OrganizationDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,324 INFO  c.e.restclient.ProfessionClient - response of get  Organization By Id is  <200 OK,Organization [id=1, orgName=SLS, orgLocation=Kolkata],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,324 DEBUG o.s.web.client.RestTemplate - Created POST request for "https://localhost:1080/easybusiness/user/addUser"
+2017-08-16 01:09:04,324 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,341 DEBUG o.s.web.client.RestTemplate - Writing [UserDTO [id=null, userName=fefgfegg12, firstName=abd, fromDate=null, lastName=dffff, password=1234, gender=male, dateOfBirth=1988-06-21, email=abc@dfgh.com, alternateEmail=, mobile=1234567899, endDate=null, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], department=Department [id=1, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], deptName=IT], designation=Designation [id=1, desig=DIRECTOR], typeOfEmployment=Permanent, isEnabled=1, permAddr=null, userImg=null, modifiedBy=null, modifiedOn=null, state=null, city=null, country=null, zip=null, fatherName=null, spouseName=null, passport=null]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,389 DEBUG o.s.web.client.RestTemplate - POST request for "https://localhost:1080/easybusiness/user/addUser" resulted in 201 (null)
+2017-08-16 01:09:04,389 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.UserDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,389 INFO  c.e.restclient.UserClient - response of create user is  <201 Created,UserDTO [id=null, userName=fefgfegg12, firstName=abd, fromDate=null, lastName=dffff, password=1234, gender=male, dateOfBirth=1988-06-21, email=abc@dfgh.com, alternateEmail=, mobile=1234567899, endDate=null, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], department=Department [id=1, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], deptName=IT], designation=Designation [id=1, desig=DIRECTOR], typeOfEmployment=Permanent, isEnabled=1, permAddr=null, userImg=null, modifiedBy=null, modifiedOn=null, state=null, city=null, country=null, zip=null, fatherName=null, spouseName=null, passport=null],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,391 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/user/getByUserName/fefgfegg12"
+2017-08-16 01:09:04,391 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,414 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/user/getByUserName/fefgfegg12" resulted in 200 (null)
+2017-08-16 01:09:04,414 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.UserDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,414 INFO  c.e.restclient.UserClient - response of get user is  <200 OK,UserDTO [id=8791, userName=fefgfegg12, firstName=abd, fromDate=null, lastName=dffff, password=1234, gender=male, dateOfBirth=1988-06-21, email=abc@dfgh.com, alternateEmail=null, mobile=1234567899, endDate=null, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], department=Department [id=1, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], deptName=IT], designation=Designation [id=1, desig=DIRECTOR], typeOfEmployment=Permanent, isEnabled=1, permAddr=null, userImg=null, modifiedBy=null, modifiedOn=null, state=null, city=null, country=null, zip=null, fatherName=null, spouseName=null, passport=null],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,419 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/role/getAllRoles"
+2017-08-16 01:09:04,419 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,442 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/role/getAllRoles" resulted in 200 (null)
+2017-08-16 01:09:04,442 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.RoleDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,442 INFO  c.e.restclient.UserRoleClient - response of get Roles is  [Lcom.easybusiness.bean.RoleDTO;@1f78e461
+2017-08-16 01:09:04,442 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/user/getByUserName/fefgfegg12"
+2017-08-16 01:09:04,442 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,470 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/user/getByUserName/fefgfegg12" resulted in 200 (null)
+2017-08-16 01:09:04,470 DEBUG o.s.web.client.RestTemplate - Reading [class com.easybusiness.bean.UserDTO] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,472 INFO  c.e.restclient.UserClient - response of get user is  <200 OK,UserDTO [id=8791, userName=fefgfegg12, firstName=abd, fromDate=null, lastName=dffff, password=1234, gender=male, dateOfBirth=1988-06-21, email=abc@dfgh.com, alternateEmail=null, mobile=1234567899, endDate=null, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], department=Department [id=1, organization=Organization [id=1, orgName=SLS, orgLocation=Kolkata], deptName=IT], designation=Designation [id=1, desig=DIRECTOR], typeOfEmployment=Permanent, isEnabled=1, permAddr=null, userImg=null, modifiedBy=null, modifiedOn=null, state=null, city=null, country=null, zip=null, fatherName=null, spouseName=null, passport=null],{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,482 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations"
+2017-08-16 01:09:04,482 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,510 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/organization/getAllOrganizations" resulted in 200 (null)
+2017-08-16 01:09:04,510 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.OrganizationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,512 INFO  c.e.restclient.ProfessionClient - response of get all Organizations is  <200 OK,[Lcom.easybusiness.bean.OrganizationDTO;@5ce5eddb,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,512 DEBUG o.s.web.client.RestTemplate - Created GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations"
+2017-08-16 01:09:04,512 DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+2017-08-16 01:09:04,537 DEBUG o.s.web.client.RestTemplate - GET request for "https://localhost:1080/easybusiness/designation/getAllDesignations" resulted in 200 (null)
+2017-08-16 01:09:04,537 DEBUG o.s.web.client.RestTemplate - Reading [class [Lcom.easybusiness.bean.DesignationDTO;] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@40dd3977]
+2017-08-16 01:09:04,540 INFO  c.e.restclient.ProfessionClient - response of get all Designations is  <200 OK,[Lcom.easybusiness.bean.DesignationDTO;@7df139de,{Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 15 Aug 2017 19:39:04 GMT]}>
+2017-08-16 01:09:04,615 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,627 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,627 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/font-awesome.min.css]
+2017-08-16 01:09:04,627 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
+2017-08-16 01:09:04,627 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
+2017-08-16 01:09:04,627 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/**]
+2017-08-16 01:09:04,627 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
+2017-08-16 01:09:04,627 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:09:04,627 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
+2017-08-16 01:09:04,630 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:09:04,632 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:09:04,632 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,667 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,670 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/responsive.css]
+2017-08-16 01:09:04,670 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/responsive.css
+2017-08-16 01:09:04,670 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/responsive.css]
+2017-08-16 01:09:04,670 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/responsive.css] are [/**]
+2017-08-16 01:09:04,670 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/responsive.css] are {}
+2017-08-16 01:09:04,670 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/responsive.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:09:04,670 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/responsive.css] is: -1
+2017-08-16 01:09:04,672 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:09:04,672 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:09:04,672 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,677 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,677 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/style.css]
+2017-08-16 01:09:04,677 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/style.css
+2017-08-16 01:09:04,677 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/style.css]
+2017-08-16 01:09:04,677 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/style.css] are [/**]
+2017-08-16 01:09:04,677 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/style.css] are {}
+2017-08-16 01:09:04,677 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/style.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:09:04,677 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/style.css] is: -1
+2017-08-16 01:09:04,680 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:09:04,680 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:09:04,680 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,685 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,687 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/bootstrap.min.css]
+2017-08-16 01:09:04,687 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
+2017-08-16 01:09:04,687 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
+2017-08-16 01:09:04,687 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/**]
+2017-08-16 01:09:04,687 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
+2017-08-16 01:09:04,687 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:09:04,687 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
+2017-08-16 01:09:04,695 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:09:04,695 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:09:04,695 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,702 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@2b164f1c
+2017-08-16 01:09:04,702 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/sb-admin.css]
+2017-08-16 01:09:04,702 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /css/sb-admin.css
+2017-08-16 01:09:04,702 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/css/sb-admin.css]
+2017-08-16 01:09:04,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/css/sb-admin.css] are [/**]
+2017-08-16 01:09:04,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/css/sb-admin.css] are {}
+2017-08-16 01:09:04,702 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/css/sb-admin.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3a45c42a]]] and 1 interceptor
+2017-08-16 01:09:04,702 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/css/sb-admin.css] is: -1
+2017-08-16 01:09:04,707 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2017-08-16 01:09:04,707 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2017-08-16 01:09:04,707 DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@2b164f1c

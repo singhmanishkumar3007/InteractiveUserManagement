@@ -25,6 +25,8 @@ public class UserBankMapDTO implements Serializable {
     private String modifiedBy;
 
     private Date modifiedOn;
+    
+    private String accountType;
 
     public UserBankMapDTO() {
 	super();
@@ -94,11 +96,20 @@ public class UserBankMapDTO implements Serializable {
 	this.modifiedOn = modifiedOn;
     }
 
+    public String getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+
     @Override
     public String toString() {
-	return "UserBankMap [id=" + id + ", user=" + user + ", bank=" + bank + ", branch=" + branch + ", accountNum="
+	return "UserBankMapDTO [id=" + id + ", user=" + user + ", bank=" + bank + ", branch=" + branch + ", accountNum="
 		+ accountNum + ", ifscCode=" + ifscCode + ", modifiedBy=" + modifiedBy + ", modifiedOn=" + modifiedOn
-		+ "]";
+		+ ", accountType=" + accountType + "]";
     }
+
 
 }

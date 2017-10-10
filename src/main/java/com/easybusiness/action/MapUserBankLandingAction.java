@@ -169,6 +169,7 @@ public class MapUserBankLandingAction extends ActionSupport implements SessionAw
 	    userBankMapDTO.setBank(userBankClient.getBankById(this.selection_bank_id));
 	    userBankMapDTO.setBranch(userBankClient.getBranchById(this.selection_branch_id));
 	    userBankMapDTO.setIfscCode(this.ifsc);
+	    userBankMapDTO.setAccountType("Salary");
 	    if(null!=this.user_id_search)
 	    {
 	    userBankMapDTO.setUser(userClient.getUserDetailsById(this.user_id_search));
